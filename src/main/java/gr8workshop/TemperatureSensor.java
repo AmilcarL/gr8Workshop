@@ -5,10 +5,26 @@
  */
 package gr8workshop;
 
-/**
+import java.util.UUID;
+/*
  *
  * @author asbjo
  */
-public class TemperatureSensor {
+public class TemperatureSensor extends Sensor {
+    private double value;
     
+    
+    public TemperatureSensor(double value, UUID id )
+    {
+    }
+    
+    public double getValue()
+    {
+        return this.value;
+    }
+    
+    public void setVale()
+    {
+        value = this.value;
+    }
 }
