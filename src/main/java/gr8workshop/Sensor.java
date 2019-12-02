@@ -15,6 +15,12 @@ public abstract class Sensor {
     private double value;
     private UUID id;
 
+
+    public Sensor(UUID id) {
+        this.id = id;
+    }
+
+    
     public double getValue() {
         return value;
     }
