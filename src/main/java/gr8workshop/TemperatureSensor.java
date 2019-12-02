@@ -4,25 +4,27 @@
  * and open the template in the editor.
  */
 package gr8workshop;
+
+import java.util.UUID;
+
 /*
  *
  * @author asbjo
  */
 public class TemperatureSensor extends Sensor {
-    private double value;
-    String name;
-    
-    
-    public TemperatureSensor()
-    {
-        
+
+    public TemperatureSensor(double value, UUID id, String name) {
+        super(value, id, name);
     }
-    
+
     @Override
-    public double getValue()
-    {
-        return this.value;
+    public double getValue() {
+        return super.getValue(); //To change body of generated methods, choose Tools | Templates.
     }
+
+
+    
+    
     
     
 }

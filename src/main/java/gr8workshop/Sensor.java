@@ -14,8 +14,9 @@ import java.util.UUID;
 public abstract class Sensor {
     private double value;
     private UUID id;
+    private String name;
 
-    public Sensor(double value, UUID id) {
+    public Sensor(double value, UUID id, String name) {
         this.value = value;
         this.id = id;
     }

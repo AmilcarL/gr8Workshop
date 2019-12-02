@@ -5,30 +5,25 @@
  */
 package gr8workshop;
 
+import java.util.UUID;
+
 /**
  *
  * @author asbjo
  */
 public class CO2Sensor extends Sensor {
-    private double value;
-    
-    
-    public CO2Sensor()
-    {
-        
+
+    public CO2Sensor(double value, UUID id, String name) {
+        super(value, id, name);
     }
-    
+
     @Override
-    public double getValue()
-    {
-        return this.value;
+    public double getValue() {
+        return super.getValue(); //To change body of generated methods, choose Tools | Templates.
     }
     
-  
     
-    /*public String toString()
-    {
-       
-    }*/
+    
+    
     
 }
