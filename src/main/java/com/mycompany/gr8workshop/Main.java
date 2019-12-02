@@ -12,5 +12,6 @@ package com.mycompany.gr8workshop;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Ja hallo mand.");
+        System.out.println("Det ser overhoved ikke sejt ud!");
     }
 }
