@@ -15,7 +15,7 @@ public class BuildingSystem {
     private ArrayList<Building> buildings;
     
     public BuildingSystem(){
-        buildings= new ArrayList<>();
+        this.buildings= new ArrayList<>();
     }
     
     public void add(Building building){
