@@ -18,16 +18,13 @@ public class CO2Sensor extends Sensor {
         
     }
     
+    @Override
     public double getValue()
     {
         return this.value;
     }
     
-    public double setValue()
-    {
-        value = this.value;
-        return value;
-    }
+  
     
     /*public String toString()
     {

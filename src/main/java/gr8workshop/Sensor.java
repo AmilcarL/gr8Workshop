@@ -20,9 +20,6 @@ public abstract class Sensor {
         this.id = id;
     }
 
-
-
-    
     public double getValue() {
         return value;
     }
