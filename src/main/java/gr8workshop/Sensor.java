@@ -5,20 +5,24 @@
  */
 package gr8workshop;
 
+import java.util.UUID;
+
 /**
  *
  * @author asbjo
  */
 public abstract class Sensor {
     private double value;
+    private UUID id;
 
     public double getValue() {
         return value;
     }
 
-    public void setValue(double value) {
-        this.value = value;
+    public UUID getId() {
+        return id;
     }
+
     
     
     
