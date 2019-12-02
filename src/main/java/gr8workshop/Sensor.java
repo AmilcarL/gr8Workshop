@@ -9,6 +9,17 @@ package gr8workshop;
  *
  * @author asbjo
  */
-public class Sensor {
+public abstract class Sensor {
+    private double value;
+
+    public double getValue() {
+        return value;
+    }
+
+    public void setValue(double value) {
+        this.value = value;
+    }
+    
+    
     
 }
